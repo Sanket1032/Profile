@@ -1,0 +1,243 @@
+body{
+    width:100%;
+    height:100%;
+    /* border:2px solid red; */
+    margin:20px;
+    border:2px solid #25274D;;
+    border-radius: 20px;
+    padding:10px;
+    background-image: url(bg1.jpg);
+    /* background-color: #9CC3d5FF; */
+    /* background-color: #89ABE3FF; */
+    z-index:-1;
+    /* overflow-x:hidden; */
+    margin-bottom:0.7vw;
+    top:0px;
+    left:0px;
+}
+header{
+    width:100%;
+    height:160px;
+    display: flex;
+    /* background-color: #25274D; */
+    /* background-image: url(bg1.jpg); */
+    /* background-color: #9CC3d5FF; */
+    /* background-color: #89ABE3FF; */
+    background:linear-gradient(to right,#195190FF,#89ABE3FF);
+    border-radius: 20px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+#icon{
+    height:140px;
+    width:140px;
+    border-radius: 70px;
+    /* background-color: lawngreen; */
+    position:relative;
+    left:18vw;
+    top:10px;
+    background-image: url(icon1.jpg);
+}
+#name{
+    font-size: 60px;
+    position:relative;
+    left:19vw;
+    top:-1vw;
+    /* text-shadow: 2px 2px 5px red; */
+}
+
+#navigation{
+    position:relative;
+    
+}
+#navigation ul{
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+    font-size: 20px;
+    background-color: #195190FF;
+    /* background-color: black; */
+    color :white;
+    height:50px;
+    border-radius:20px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgba(167, 164, 164, 0.952);
+    /* color:black; */
+}
+#logo{
+    column-gap: 10px;
+    position: relative;
+    /* background-color: chartreuse; */
+    height:3vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left:40vw;
+    top:110px;
+}
+
+#logo a img{
+    width:3vw;
+    
+}
+#images{
+    display:flex;
+    column-gap: 10%;
+    /* position: relative; */
+    /* left:0px; */
+    height:34vw;
+    border:2px solid red; 
+    /* padding:10px; */
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*  align-items: center; */
+    justify-content: center;
+    /* overflow:hidden; */
+    margin:auto;
+}
+#images1{
+    display:flex;
+    column-gap: 140px;
+    position: relative;
+    left:0px;
+    height:470px;
+    /* border:2px solid red; */
+    padding:10px;
+    /* background-color: rgb(104, 100, 100); */
+    color:white;
+}
+.photo{
+    /* position: relative; */
+    /* left:130px; */
+    height: 73%;
+    width: 19%;
+    background-color: #89ABE3FF;
+    display:inline;
+    
+}
+/* .photo img{
+    width:100%;
+    height:100%;
+} */
+#sinha{
+    position: relative;
+    top:8vw;
+}
+#footer{
+    height:50px;
+    background-color:#195190FF ;
+    position:relative;
+    top:10px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 20px;
+}
+.box{
+    text-align: left;
+    height:250px;
+    width:300px;
+    border:5px solid #195190FF;
+    background-color: rgba(53, 48, 48, 0.986);
+    padding:30px;
+    font-size:20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box h3{
+    font-size: 25px;
+}
+#hobby{
+    position: relative;
+    top:130px;
+    left:40px;
+}
+#education{
+    position: relative;
+    left:140px;
+    top:30px;
+}
+#sport{
+    position: relative;
+    right:60px;
+    top:30px;
+}
+#form{
+    position: relative;
+    top:50px;
+    height:470px;
+    left:400px;
+    font-size: 20px;
+    
+    /* color:white; */
+}
+#names{
+    display:flex;
+    column-gap: 100px;
+}
+.p{
+    display:flex;
+    flex-direction: column;
+    
+    row-gap: 10px;
+    width:250px;
+}
+#email{
+    display:flex;
+    flex-direction: column;
+    height:30px;
+    row-gap: 30px;
+    width:600px;
+}
+#message{
+    display:flex;
+    flex-direction: column;
+    
+    row-gap: 30px;
+    width:300px;
+}
+#first_name{
+    height:30px;
+}
+#last_name{
+    height:30px;
+}
+#submit{
+    position: relative;
+    left:240px;
+    top:20px;
+    height:35px;
+    width:150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#visa img{
+    height:25vw;
+}
+#sinha img{
+    height:25vw;
+}
+#torna img{
+    height:25vw;
+}
+@media (max-width:1150px) and (min-width:800px){
+    #name{
+        font-size: 50px;
+        top:10px;
+    }
+}
